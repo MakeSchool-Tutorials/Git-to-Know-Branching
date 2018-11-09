@@ -9,7 +9,7 @@ slug: conflicts
 
 Let's practice what to do when your branch doesn't merge flawlessly with `master`.
 
-# Step 1: Creating a Conflict Script
+# Step 1 - Creating a Conflict Script
 
 In order to explore merge conflicts, we'll need to generate one in your repository!
 
@@ -67,7 +67,7 @@ It needs your help in order to rectify the changeset.
 
 Next, let's learn how to inform Git about the changes we want to keep, and the changes we want to discard.
 
-# Step 2: Viewing the Conflict
+# Step 2 - Viewing the Conflict
 
 > [action]
 > To see the beginning of the merge conflict in your file, open `my_code.sh` in your editor and search the file for the conflict marker `<<<<<<<`.
@@ -85,7 +85,7 @@ When you open the file in your text editor, you'll see the changes from the HEAD
 
 Next, you'll see `=======`, which divides your changes from the changes in the other branch, followed by `>>>>>>> new_branch`, the branch we attempted to merge into `master`.
 
-# Step 3: Merge Manually
+# Step 3 - Merge Manually
 
 > [action]
 > Decide if you want to keep only your branch's changes, keep only the other branch's changes, or make a brand new change, which may incorporate changes from both branches.
@@ -101,7 +101,7 @@ Hello World
 ```
 >
 
-# Step 4: Add, Commit, and Push to GitHub
+# Step 4 - Push Those Changes
 
 > [action]
 > Add or stage your changes, commit them, and finally, perform your last push to GitHub.
@@ -113,6 +113,8 @@ $ git push origin master
 ```
 >
 
-# Acheivement Unlocked: Mega Merge Master
+# Acheivement Unlocked
+
+## Mega Merge Master
 
 **Way to level up your Git skills --- you're ready to handle branches, merges, and conflicts in your day-to-day projects!**

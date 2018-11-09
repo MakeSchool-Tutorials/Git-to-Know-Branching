@@ -7,7 +7,7 @@ Ready to merge to `origin/master`?
 
 Let's make it happen using the following three step process!
 
-# Step 1: Move to Master Branch
+# Step 1 - Move to Master Branch
 
 > [action]
 > In your local repository directory, run the following command to switch to the `master` branch.
@@ -19,7 +19,7 @@ Switched to branch 'master'
 ```
 >
 
-# Step 2: Pull the Latest Changes
+# Step 2 - Pull the Latest Changes
 
 > [action]
 > Pull the latest changes from `origin/master`, integrating the changesets into your local repository.
@@ -33,7 +33,7 @@ Already up to date.
 ```
 >
 
-# Step 3: Merge!
+# Step 3 - Merge!
 
 > [action]
 > Let's merge by running the command below!
@@ -48,7 +48,7 @@ create mode 100644 test.js
 ```
 >
 
-# Step 4: Add, Commit, and Push to GitHub
+# Step 4 - Push to GitHub
 
 > [action]
 > Add or stage your changes, commit them, and push them to GitHub.
@@ -60,6 +60,6 @@ $ git push origin master
 ```
 >
 
-# Success
+# Next Step
 
 We've practiced what to do in successful merge scenarios. Awesome! But what happens when things go awry? Follow the next step of the tutorial to practice how to deal with merge conflicts!

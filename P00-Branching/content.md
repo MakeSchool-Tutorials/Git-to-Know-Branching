@@ -48,12 +48,12 @@ Successful teams follow **three rules to integrate git into their daily workflow
 
 Sold? Let's try it out! Follow the step-by-step guide below to create and push your own branch to GitHub!
 
-# Step 1: Create a New GitHub Repository
+# Step 1 - Create a New GitHub Repository
 
 > [action]
 > First, create a [new GitHub repository](https://github.com/new) to serve as a playground for this tutorial.
 
-# Step 2: Create a Local Clone
+# Step 2 - Create a Local Clone
 
 > [action]
 > On your **local** machine, `cd` to the project directory. In git, this is known as your **working directory**, which was created when you executed `git clone` at the beginning of the project.
@@ -71,7 +71,7 @@ Receiving objects: 100% (233/233), 35.28 KiB | 5.04 MiB/s, done.
 Resolving deltas: 100% (120/120), done.
 ```
 
-# Step 3: Pull Updates Early and Often
+# Step 3 - Pull Updates Early and Often
 
 > [action]
 > Update your **local** repository with the latest revision of `origin/master`.
@@ -92,7 +92,7 @@ README.md | 25 ++++++++++++++++++-------
 ```
 >
 
-# Step 4: Creating a Branch
+# Step 4 - Creating a Branch
 
 Now that your **local** `master` branch is up-to-date with your team's latest changes, create a branch locally by **running the exact command** below. There are other ways to do this, but **this one is foolproof**.
 
@@ -106,7 +106,7 @@ $ git checkout -b develop master
 ```
 >
 
-# Step 5: Generate a Changeset
+# Step 5 - Generate a Changeset
 
 Write that fancy new feature, fix that bug, experiment; it's showtime!
 
@@ -121,7 +121,7 @@ $ git commit -m "[add] code from step 5 of sweet git tutorial"
 ```
 >
 
-# Step 6: Integrate Upstream Changes
+# Step 6 - Integrate Upstream Changes
 
 > [action]
 > Integrate upstream changes from `origin/master`, which adds them to our **local** branch.
@@ -135,7 +135,7 @@ Already up-to-date.
 ```
 >
 
-# Step 7: Push Your New Branch
+# Step 7 - Push Your New Branch
 
 > [action]
 > Push your new branch, as well as your changeset, to `origin/develop`.
@@ -150,8 +150,9 @@ Writing objects: 100% (16/16), 1.49 KiB | 1.49 MiB/s, done.
 Total 16 (delta 14), reused 0 (delta 0)
 remote: Resolving deltas: 100% (14/14), completed with 14 local objects.
 To ssh://github.com/droxey/git-branchy.git
-[new branch]      `develop` -> `develop`
+[new branch]      'develop' -> 'develop'
 ```
+>
 
 This branch is now available on your `origin` – simply open up GitHub (or GitLab, Heroku, Bitbucket, etc) to verify! When complete, it's a good idea to ask a friend or colleague to review your code.
 
@@ -159,5 +160,7 @@ Once your code is bug-free and release-ready, merge it to the `master` branch.
 
 > [info]
 > Repeat this process each time you finish a part of the feature or need to take a break. Branches are considered works in progress – so commit and push to your branche(s) as much as possible; **even if it's not done**! If something goes terribly wrong, `origin/develop` serves as a history, backup, and record of your valuable work!
+
+# Next Step
 
 Ready for primetime? Proceed to the next page to learn how to merge your code into the `origin/master` branch on GitHub.
