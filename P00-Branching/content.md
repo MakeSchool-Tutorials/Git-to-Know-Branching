@@ -30,6 +30,9 @@ $ git push origin develop
 $ git checkout master
 $ git pull origin master
 $ git merge develop
+$ git add .
+$ git commit -m "[add] merge the develop branch"
+$ git push origin master
 ```
 >
 
