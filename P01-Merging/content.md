@@ -48,6 +48,18 @@ create mode 100644 test.js
 ```
 >
 
+# Step 4: Add, Commit, and Push to github
+
+> [action]
+> Add or stage your changes, commit them, and finally, push them to GitHub.
+>
+```bash
+$ git add .
+$ git commit -m "[fix] merge conflict"
+$ git push origin master
+```
+>
+
 # Success
 
 We've practiced what to do in successful merge scenarios. Awesome! But what happens when things go awry? Follow the next step of the tutorial to practice how to deal with merge conflicts!

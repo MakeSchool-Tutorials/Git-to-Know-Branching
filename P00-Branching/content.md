@@ -3,7 +3,7 @@ title: "Get Branching with Git"
 slug: branching
 ---
 
-> If you ever talk to a great programmer, you'll find they know their tools like an artist knows their paintbrushes.
+> **If you ever talk to a great programmer, you'll find they know their tools like an artist knows their paintbrushes.**
 >
 > -Bill Gates
 

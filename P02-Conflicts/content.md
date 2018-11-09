@@ -3,6 +3,10 @@ title: "Coping with Conflicts"
 slug: conflicts
 ---
 
+> **Don’t worry if it doesn’t work right. If everything did, you’d be out of a job.**
+>
+> -Mosher’s Law of Software Engineering
+
 Let's practice what to do when your branch doesn't merge flawlessly with `master`.
 
 # Step 1: Creating a Conflict Script
