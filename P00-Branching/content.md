@@ -159,7 +159,9 @@ To ssh://github.com/droxey/git-branchy.git
 ```
 >
 
-This branch is now available on your `origin` – simply open up GitHub (or GitLab, Heroku, Bitbucket, etc) to verify! When complete, it's a good idea to ask a friend or colleague to review your code.
+This branch is now available on your `origin` – simply open up GitHub (or GitLab, Heroku, Bitbucket, etc) to verify!
+
+Once complete, it's a good idea to ask a friend or colleague to review your code.
 
 Once your code is bug-free and release-ready, merge it to the `master` branch.
 
