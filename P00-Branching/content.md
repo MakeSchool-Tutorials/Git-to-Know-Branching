@@ -138,7 +138,7 @@ Already up-to-date.
 > Push your new branch, as well as your changeset, to `origin/develop`.
 
 ```bash
-$ git push origin `develop`
+$ git push origin develop
 >
 Counting objects: 16, done.
 Delta compression using up to 4 threads.
