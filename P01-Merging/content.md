@@ -3,6 +3,10 @@ title: "Merging to Master"
 slug: merging
 ---
 
+> Talk is cheap, show me the code!
+>
+> -Linus Torvalds
+
 Ready to merge to `origin/master`?
 
 Let's make it happen using the following three step process!
