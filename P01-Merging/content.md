@@ -3,7 +3,7 @@ title: "Merging to Master"
 slug: merging
 ---
 
-> Talk is cheap, show me the code!
+> **Talk is cheap, show me the code!**
 >
 > -Linus Torvalds
 
