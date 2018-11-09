@@ -108,7 +108,7 @@ $ git checkout -b develop master
 Write that fancy new feature, fix that bug, experiment; it's showtime!
 
 > [action]
-> Create a new file. Add some code. We trust you --- you've been doing this a while!
+> Create a new file. Add some code. We trust you --- you've been doing this a while! For example, I added a file named `test.js` to my directory.
 >
 > Once complete, run the following commands to add and commit your changeset to your local repository.
 >

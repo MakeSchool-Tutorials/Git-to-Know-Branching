@@ -12,27 +12,35 @@ slug: merging
 $ git checkout master
 >
 Switched to branch 'master'
->
-$ git pull origin master
->
-From github.com:droxey/makeapiswith.us
- * branch            master     -> FETCH_HEAD
-Already up to date.
 ```
 >
 
 # Step 2: Pull the Latest Changes
 
 > [action]
-> Let's merge!
+> Pull the latest changes from `origin/master`, integrating the changesets into your local repository.
+>
+```bash
+$ git pull origin master
+>
+From github.com:droxey/git-branchy
+* branch            master     -> FETCH_HEAD
+Already up to date.
+```
+>
+
+# Step 3: Merge!
+
+> [action]
+> Let's merge by running the command below!
 >
 ```bash
 $ git merge develop
 >
 Merge made by the 'recursive' strategy.
- src/test.js              |  0
- 1 files changed, 1 insertions(+), 0 deletions(-)
- create mode 100644 src/test.js
+test.js              |  0
+1 files changed, 1 insertions(+), 0 deletions(-)
+create mode 100644 test.js
 ```
 
 # Step 3: Success
