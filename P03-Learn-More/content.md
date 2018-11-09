@@ -1,4 +1,4 @@
 ---
 title: "Where to Learn More"
-slug: step-4
+slug: learn-more
 ---

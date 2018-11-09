@@ -1,6 +1,6 @@
 ---
 title: "Merging to Master"
-slug: step-2
+slug: merging
 ---
 
 # Step 1:

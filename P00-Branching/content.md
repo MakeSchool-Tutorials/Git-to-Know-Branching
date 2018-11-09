@@ -1,6 +1,6 @@
 ---
 title: "Get Branching with Git"
-slug: step-1
+slug: branching
 ---
 
 > If you ever talk to a great programmer, you'll find they know their tools like an artist knows their paintbrushes.

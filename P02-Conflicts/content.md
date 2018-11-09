@@ -1,6 +1,6 @@
 ---
 title: "Coping with Conflicts"
-slug: step-3
+slug: conflicts
 ---
 
 Let's practice what to do when your branch doesn't merge flawlessly with `master`.
