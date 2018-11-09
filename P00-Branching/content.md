@@ -1,5 +1,5 @@
 ---
-title: "Get Branching with Git"
+title: "Branching Out"
 slug: branching
 ---
 
