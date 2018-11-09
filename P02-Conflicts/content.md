@@ -88,7 +88,10 @@ Next, you'll see `=======`, which divides your changes from the changes in the o
 >
 > Delete the conflict markers `<<<<<<<`, `=======`, `>>>>>>>` and make the changes you want in the final merge.
 >
-> In this example, both changes are incorporated into the final merge:
+> In this example, both changes are incorporated into the final merge.
+>
+> Here's what the `my_code.sh` file looks like in it's final form:
+>
 ```bash
 Hello World
 ```
