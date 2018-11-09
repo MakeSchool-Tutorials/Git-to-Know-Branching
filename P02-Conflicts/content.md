@@ -37,17 +37,63 @@ git merge new_branch
 >
 
 > [action]
-> Run the script using the command below. What happens?
+> Run the script using the command below. Examine the last two lines of output. What happened?
 >
 ```bash
 $ ./make-conflict.sh
+>
+[master (root-commit) cc780d8] initial
+ 1 file changed, 1 insertion(+)
+ create mode 100644 my_code.sh
+Switched to a new branch 'new_branch'
+[new_branch 3cb9aa2] first commit on new_branch
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Switched to branch 'master'
+[master 20700cb] second commit on master
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Auto-merging my_code.sh
+CONFLICT (content): Merge conflict in my_code.sh
+Automatic merge failed; fix conflicts and then commit the result.
 ```
 >
 
-# Step 2: Become a Merge Master
+Git wasn't able to merge the changeset automatically!
 
-`#TODO`
+It needs your help in order to rectify the changeset.
 
-# Ready for More?
+Next, let's learn how to inform Git about the changes we want to keep, and the changes we want to discard.
 
-Want to learn more? The final page of this tutorial includes some handy resources to dive deeper.
+# Step 2: Viewing the Conflict
+
+> [action]
+> To see the beginning of the merge conflict in your file, open `my_code.sh` in your editor and search the file for the conflict marker `<<<<<<<`.
+>
+```bash
+<<<<<<< HEAD
+echo "Hello World!"
+=======
+echo "Hello World"
+>>>>>>> new_branch
+```
+>
+
+When you open the file in your text editor, you'll see the changes from the HEAD or base branch after the line `<<<<<<< HEAD`.
+
+Next, you'll see `=======`, which divides your changes from the changes in the other branch, followed by `>>>>>>> new_branch`, the branch we attempted to merge into `master`.
+
+# Step 3: Merge Manually
+
+> [action]
+> Decide if you want to keep only your branch's changes, keep only the other branch's changes, or make a brand new change, which may incorporate changes from both branches.
+>
+> Delete the conflict markers `<<<<<<<`, `=======`, `>>>>>>>` and make the changes you want in the final merge.
+>
+> In this example, both changes are incorporated into the final merge:
+```bash
+Hello World
+```
+>
+
+# Acheivement Unlocked: Mega Merge Master
+
+**Way to level up your Git skills --- you're ready to handle branches, merges, and conflicts in your day-to-day projects!**

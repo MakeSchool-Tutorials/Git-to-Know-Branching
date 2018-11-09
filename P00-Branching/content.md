@@ -25,6 +25,9 @@ $ git add .
 $ git commit -m "[add] code from step 5 of sweet git tutorial"
 $ git pull origin master
 $ git push origin develop
+$ git checkout master
+$ git pull origin master
+$ git merge develop
 ```
 >
 

@@ -3,6 +3,10 @@ title: "Merging to Master"
 slug: merging
 ---
 
+Ready to merge to `origin/master`?
+
+Let's make it happen using the following three step process!
+
 # Step 1: Move to Master Branch
 
 > [action]
@@ -42,7 +46,8 @@ test.js              |  0
 1 files changed, 1 insertions(+), 0 deletions(-)
 create mode 100644 test.js
 ```
+>
 
-# Step 3: Success
+# Success
 
 We've practiced what to do in successful merge scenarios. Awesome! But what happens when things go awry? Follow the next step of the tutorial to practice how to deal with merge conflicts!
