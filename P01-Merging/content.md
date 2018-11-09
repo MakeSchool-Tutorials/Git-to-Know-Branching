@@ -48,14 +48,14 @@ create mode 100644 test.js
 ```
 >
 
-# Step 4: Add, Commit, and Push to github
+# Step 4: Add, Commit, and Push to GitHub
 
 > [action]
-> Add or stage your changes, commit them, and finally, push them to GitHub.
+> Add or stage your changes, commit them, and push them to GitHub.
 >
 ```bash
 $ git add .
-$ git commit -m "[fix] merge conflict"
+$ git commit -m "[add] merge the develop branch"
 $ git push origin master
 ```
 >

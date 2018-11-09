@@ -101,6 +101,18 @@ Hello World
 ```
 >
 
+# Step 4: Add, Commit, and Push to GitHub
+
+> [action]
+> Add or stage your changes, commit them, and finally, perform your last push to GitHub.
+>
+```bash
+$ git add .
+$ git commit -m "[fix] merge conflict"
+$ git push origin master
+```
+>
+
 # Acheivement Unlocked: Mega Merge Master
 
 **Way to level up your Git skills --- you're ready to handle branches, merges, and conflicts in your day-to-day projects!**
