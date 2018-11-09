@@ -1,7 +1,6 @@
-title: "Tutorial Template Title, max 56 characters"
+title: "Git to Know Branching"
 cover: cover.png
-solution_url: https://github.com/MakeSchool-Tutorials/Tutorial-Template/
+solution_url: https://github.com/MakeSchool-Tutorials/Git-to-Know-Branching/
 teaser_text: |
-    Tell the user what they will learn!
-    This can be multi-line text.
-    150 characters max!
+  Branches aren't just for trees!
+  Learn how to create and manage branches effectively with this handy, step by step tutorial.
