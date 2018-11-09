@@ -7,7 +7,9 @@ slug: branching
 >
 > -Bill Gates
 
-This tutorial details a step-by-step strategy to enhance your development workflow called **git branching**. Branching is often referred to as the "killer feature" of Git.
+This tutorial details a step-by-step strategy to enhance your development workflow called **git branching**.
+
+Branching is often referred to as the "killer feature" of Git.
 
 ## Command Overview
 
