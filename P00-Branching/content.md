@@ -144,7 +144,7 @@ Already up-to-date.
 
 > [action]
 > Push your new branch, as well as your changeset, to `origin/develop`.
-
+>
 ```bash
 $ git push origin develop
 >
