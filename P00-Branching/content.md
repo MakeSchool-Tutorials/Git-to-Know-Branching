@@ -5,9 +5,9 @@ slug: branching
 
 > If you ever talk to a great programmer, you'll find they know their tools like an artist knows their paintbrushes.
 >
-> -_Bill Gates_
+> -Bill Gates
 
-This tutorial details a step-by-step strategy to enhance your development workflow called **_git branching_**. Branching is often referred to as the "killer feature" of Git.
+This tutorial details a step-by-step strategy to enhance your development workflow called **git branching**. Branching is often referred to as the "killer feature" of Git.
 
 ## Command Overview
 
@@ -91,7 +91,7 @@ README.md | 25 ++++++++++++++++++-------
 
 # Step 4: Creating a Branch
 
-Now that your **local** `master` branch is up-to-date with your team's latest changes, create a branch locally by **running the exact command** below. There are other ways to do this, but **this one is _foolproof_**.
+Now that your **local** `master` branch is up-to-date with your team's latest changes, create a branch locally by **running the exact command** below. There are other ways to do this, but **this one is foolproof**.
 
 The syntax below creates a new branch named `develop` based on an existing branch, `master`.
 
@@ -155,6 +155,6 @@ This branch is now available on your `origin` – simply open up GitHub (or GitL
 Once your code is bug-free and release-ready, merge it to the `master` branch.
 
 > [info]
-> _Repeat this process each time you finish a part of the feature or need to take a break. Branches are considered works in progress – so commit and push to your branche(s) as much as possible; **even if it's not done**! If something goes terribly wrong, `origin/develop` serves as a history, backup, and record of your valuable work!_
+> Repeat this process each time you finish a part of the feature or need to take a break. Branches are considered works in progress – so commit and push to your branche(s) as much as possible; **even if it's not done**! If something goes terribly wrong, `origin/develop` serves as a history, backup, and record of your valuable work!
 
 Ready for primetime? Proceed to the next page to learn how to merge your code into the `origin/master` branch on GitHub.
