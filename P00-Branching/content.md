@@ -63,7 +63,7 @@ Sold? Let's try it out! Follow the step-by-step guide below to create and push y
 # Step 2 - Create a Local Clone
 
 > [action]
-> On your **local** machine, `cd` to the project directory. In git, this is known as your **working directory**, which was created when you executed `git clone` at the beginning of the project. Clone the remote repository you made in Step 1.
+> On your **local** machine, `cd` to the project directory. In git, this is known as your **working directory**, which was created when you executed `git clone` at the beginning of the project. Clone the remote repository you made in Step 1. Initialize the repo with a `README` file.
 >
 ```bash
 $ cd ~/dev/repos
