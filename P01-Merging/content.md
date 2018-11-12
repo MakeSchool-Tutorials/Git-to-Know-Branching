@@ -31,7 +31,7 @@ Switched to branch 'master'
 ```bash
 $ git pull origin master
 >
-From github.com:droxey/git-branchy
+From github.com:YOUR_USERNAME/git-branchy
 * branch            master     -> FETCH_HEAD
 Already up to date.
 ```

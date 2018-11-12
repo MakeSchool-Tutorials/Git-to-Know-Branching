@@ -9,32 +9,7 @@ slug: branching
 
 This tutorial details a step-by-step strategy to enhance your development workflow called **git branching**.
 
-Branching is often referred to as the "killer feature" of Git.
-
-## Command Overview
-
-The commands we'll be running in each step are listed below for your future reference. Save it in your notes!
-
-> [solution]
->
-```bash
-$ cd ~/dev/repos/
-$ git clone git@github.com:droxey/git-branchy.git
-$ cd git-branchy
-$ git pull origin master
-$ git checkout -b develop master
-$ git add .
-$ git commit -m "[add] code from step 5 of sweet git tutorial"
-$ git pull origin master
-$ git push origin develop
-$ git checkout master
-$ git pull origin master
-$ git merge develop
-$ git add .
-$ git commit -m "[add] merge the develop branch"
-$ git push origin master
-```
->
+Branching is often referred to as the "killer feature" of Git. Let's explore why in the following section, the Purpose of Branching.
 
 ## Purpose of Branching
 
@@ -51,12 +26,39 @@ Successful teams follow **three rules to integrate git into their daily workflow
     * Works **in progress**.
     * Individual contributions **that aren't ready to be deployed**.
 
+## Command Overview
+
+The commands we'll be running in each step are listed below for your future reference. Save it in your notes!
+
+> [solution]
+>
+```bash
+$ cd ~/dev/repos/
+$ git clone git@github.com:YOUR_USERNAME/git-branchy.git
+$ cd git-branchy
+$ git pull origin master
+$ git checkout -b develop master
+$ git add .
+$ git commit -m "[add] code from step 5 of sweet git tutorial"
+$ git pull origin master
+$ git push origin develop
+$ git checkout master
+$ git pull origin master
+$ git merge develop
+$ git add .
+$ git commit -m "[add] merge the develop branch"
+$ git push origin master
+```
+>
+
+# Let's Go!
+
 Sold? Let's try it out! Follow the step-by-step guide below to create and push your own branch to GitHub!
 
 # Step 1 - Create a New GitHub Repository
 
 > [action]
-> First, create a [new GitHub repository](https://github.com/new) to serve as a playground for this tutorial.
+> First, create a [new GitHub repository](https://github.com/new) to serve as a playground for this tutorial. Call it `git-branchy`.
 
 # Step 2 - Create a Local Clone
 
@@ -65,7 +67,7 @@ Sold? Let's try it out! Follow the step-by-step guide below to create and push y
 >
 ```bash
 $ cd ~/dev/repos
-$ git clone git@github.com:droxey/git-branchy.git
+$ git clone git@github.com:YOUR_USERNAME/git-branchy.git
 >
 Cloning into 'git-branchy'...
 remote: Enumerating objects: 233, done.
@@ -87,7 +89,7 @@ $ git pull origin master
 remote: Counting objects: 6, done.
 remote: Total 6 (delta 2), reused 2 (delta 2), pack-reused 4
 Unpacking objects: 100% (6/6), done.
-From ssh://github.com/droxey/git-branchy
+From ssh://github.com/YOUR_USERNAME/git-branchy
 branch            master     -> FETCH_HEAD
 383e9d7..7766d57  master     -> origin/master
 Updating 383e9d7..7766d57
@@ -134,7 +136,7 @@ $ git commit -m "[add] code from step 5 of sweet git tutorial"
 ```bash
 $ git pull origin master
 >
-From ssh://github.com/droxey/git-branchy
+From ssh://github.com/YOUR_USERNAME/git-branchy
  * branch            master     -> FETCH_HEAD
 Already up-to-date.
 ```
@@ -154,7 +156,7 @@ Compressing objects: 100% (16/16), done.
 Writing objects: 100% (16/16), 1.49 KiB | 1.49 MiB/s, done.
 Total 16 (delta 14), reused 0 (delta 0)
 remote: Resolving deltas: 100% (14/14), completed with 14 local objects.
-To ssh://github.com/droxey/git-branchy.git
+To ssh://github.com/YOUR_USERNAME/git-branchy.git
 [new branch]      'develop' -> 'develop'
 ```
 >
