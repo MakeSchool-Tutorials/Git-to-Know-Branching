@@ -58,12 +58,12 @@ Sold? Let's try it out! Follow the step-by-step guide below to create and push y
 # Step 1 - Create a New GitHub Repository
 
 > [action]
-> First, create a [new GitHub repository](https://github.com/new) to serve as a playground for this tutorial. Call it `git-branchy`.
+> First, create a [new GitHub repository](https://github.com/new) to serve as a playground for this tutorial. Call it `git-branchy`. Initialize the repo with a `README` file.
 
 # Step 2 - Create a Local Clone
 
 > [action]
-> On your **local** machine, `cd` to the project directory. In git, this is known as your **working directory**, which was created when you executed `git clone` at the beginning of the project. Clone the remote repository you made in Step 1. Initialize the repo with a `README` file.
+> On your **local** machine, `cd` to the project directory. In git, this is known as your **working directory**, which was created when you executed `git clone` at the beginning of the project. Clone the remote repository you made in Step 1.
 >
 ```bash
 $ cd ~/dev/repos
