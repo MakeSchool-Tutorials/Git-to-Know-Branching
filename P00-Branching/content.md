@@ -37,7 +37,7 @@ $ cd ~/dev/repos/
 $ git clone git@github.com:YOUR_USERNAME/git-branchy.git
 $ cd git-branchy
 $ git pull origin master
-$ git checkout -b develop master
+$ git checkout -b develop
 $ git add .
 $ git commit -m "[add] code from step 5 of sweet git tutorial"
 $ git pull origin master
@@ -109,7 +109,7 @@ The syntax below creates a new branch named `develop` based on an existing branc
 > Run the following command to create the `develop` branch locally:
 >
 ```bash
-$ git checkout -b develop master
+$ git checkout -b develop
 ```
 >
 
