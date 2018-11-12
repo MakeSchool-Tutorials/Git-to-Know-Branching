@@ -81,7 +81,7 @@ Resolving deltas: 100% (120/120), done.
 # Step 3 - Pull Updates Early and Often
 
 > [action]
-> Update your **local** repository with the latest revision of `origin/master`.
+> Update your **local** repository with the latest revision of the `origin/master` branch.
 >
 ```bash
 $ git pull origin master
