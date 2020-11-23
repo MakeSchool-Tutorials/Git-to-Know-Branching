@@ -3,7 +3,7 @@
 
 ### Successful teams follow 3 easy rules to integrate git into their daily workflow:
   1. **Commit early and often.**
-  1. **Don't break master.** The code in `origin/master` always works. No errors, no UI glitches. No exceptions.
+  1. **Don't break main.** The code in `origin/main` always works. No errors, no UI glitches. No exceptions.
   1. **Use feature branches.** One branch per feature.
 
 
@@ -15,11 +15,11 @@ This document describes a sample development workflow using a feature branch con
 
 ```
 ➜ cd ~/dev/repos/r3view
-➜ git pull origin master
-➜ git checkout -b develop master
+➜ git pull origin main
+➜ git checkout -b develop main
 ➜ git add .
 ➜ git commit -m "added nightmarejs to package.json"
-➜ git pull origin master
+➜ git pull origin main
 ➜ git push origin develop
 ```
 
@@ -36,18 +36,18 @@ dani@mbp:~
 ```
 
 ### Step 2
-Update your **local** repository with the latest revision of `origin/master`.
+Update your **local** repository with the latest revision of `origin/main`.
 
 ```
-dani@mbp:dev/repos/r3view on master [$!]
-➜ git pull origin master
+dani@mbp:dev/repos/r3view on main [$!]
+➜ git pull origin main
 
 remote: Counting objects: 6, done.
 remote: Total 6 (delta 2), reused 2 (delta 2), pack-reused 4
 Unpacking objects: 100% (6/6), done.
 From ssh://github.com/droxey/r3view
-branch            master     -> FETCH_HEAD
-383e9d7..7766d57  master     -> origin/master
+branch            main     -> FETCH_HEAD
+383e9d7..7766d57  main     -> origin/main
 Updating 383e9d7..7766d57
 Fast-forward
 README.md | 25 ++++++++++++++++++-------
@@ -56,11 +56,11 @@ README.md | 25 ++++++++++++++++++-------
 
 
 ### Step 3
-Now that your **local** `master` branch is up-to-date with your team's latest changes, create a branch locally by __running the exact command__ below. There are other ways to do this, but __this one is foolproof__. This syntax creates a new branch named `develop` based on an existing branch, `master`.
+Now that your **local** `main` branch is up-to-date with your team's latest changes, create a branch locally by __running the exact command__ below. There are other ways to do this, but __this one is foolproof__. This syntax creates a new branch named `develop` based on an existing branch, `main`.
 
 ```
-dani@mbp:dev/repos/r3view on master [$!]
-➜ git checkout -b develop master
+dani@mbp:dev/repos/r3view on main [$!]
+➜ git checkout -b develop main
 ```
 
 
@@ -84,14 +84,14 @@ dani@mbp:dev/repos/r3view on develop [$+]
 ```
 
 ### Step 6
-Integrate upstream changes from `origin/master`, which adds them to our **local** branch.
+Integrate upstream changes from `origin/main`, which adds them to our **local** branch.
 
 ```
 dani@mbp:dev/repos/r3view on develop [$+]
-➜ git pull origin master
+➜ git pull origin main
 
 From ssh://github.com/droxey/r3view
- * branch            master     -> FETCH_HEAD
+ * branch            main     -> FETCH_HEAD
 Already up-to-date.
 ```
 
@@ -112,7 +112,7 @@ To ssh://github.com/droxey/r3view.git
 [new branch]      `develop` -> `develop`
 ```
 
-This branch is now available on your `origin` – simply open up GitHub, GitLab, or Heroku to verify! When complete, ask your team lead to review your code and merge it to the `master` branch.
+This branch is now available on your `origin` – simply open up GitHub, GitLab, or Heroku to verify! When complete, ask your team lead to review your code and merge it to the `main` branch.
 
 
 ## IMPORTANT!

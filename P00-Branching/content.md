@@ -16,8 +16,8 @@ Branching is often referred to as the "killer feature" of Git. Let's explore why
 Successful teams follow **three rules to integrate git into their daily workflow**:
 
 1. **Commit early and often.**
-1. **Don't break master.**
-    * The code in `origin/master` **always** works.
+1. **Don't break main.**
+    * The code in `origin/main` **always** works.
     * **No errors**, no UI glitches.
     * **No exceptions**.
 1. **Use branches.** A branch can represent:
@@ -36,18 +36,18 @@ The commands we'll be running in each step are listed below for your future refe
 $ cd ~/dev/repos/
 $ git clone git@github.com:YOUR_USERNAME/git-branchy.git
 $ cd git-branchy
-$ git pull origin master
+$ git pull origin main
 $ git checkout -b develop
 $ git add .
 $ git commit -m "[add] code from step 5 of sweet git tutorial"
-$ git pull origin master
+$ git pull origin main
 $ git push origin develop
-$ git checkout master
-$ git pull origin master
+$ git checkout main
+$ git pull origin main
 $ git merge develop
 $ git add .
 $ git commit -m "[add] merge the develop branch"
-$ git push origin master
+$ git push origin main
 ```
 >
 
@@ -81,17 +81,17 @@ Resolving deltas: 100% (120/120), done.
 # Step 3 - Pull Updates Early and Often
 
 > [action]
-> Update your **local** repository with the latest revision of the `origin/master` branch.
+> Update your **local** repository with the latest revision of the `origin/main` branch.
 >
 ```bash
-$ git pull origin master
+$ git pull origin main
 >
 remote: Counting objects: 6, done.
 remote: Total 6 (delta 2), reused 2 (delta 2), pack-reused 4
 Unpacking objects: 100% (6/6), done.
 From ssh://github.com/YOUR_USERNAME/git-branchy
-branch            master     -> FETCH_HEAD
-383e9d7..7766d57  master     -> origin/master
+branch            main     -> FETCH_HEAD
+383e9d7..7766d57  main     -> origin/main
 Updating 383e9d7..7766d57
 Fast-forward
 README.md | 25 ++++++++++++++++++-------
@@ -101,9 +101,9 @@ README.md | 25 ++++++++++++++++++-------
 
 # Step 4 - Creating a Branch
 
-Now that your **local** `master` branch is up-to-date with your team's latest changes, create a branch locally by **running the exact command** below. There are other ways to do this, but **this one is foolproof**.
+Now that your **local** `main` branch is up-to-date with your team's latest changes, create a branch locally by **running the exact command** below. There are other ways to do this, but **this one is foolproof**.
 
-The syntax below creates a new branch named `develop` based on an existing branch, `master`.
+The syntax below creates a new branch named `develop` based on an existing branch, `main`.
 
 > [action]
 > Run the following command to create the `develop` branch locally:
@@ -131,13 +131,13 @@ $ git commit -m "[add] code from step 5 of sweet git tutorial"
 # Step 6 - Integrate Upstream Changes
 
 > [action]
-> Integrate upstream changes from `origin/master`, which adds them to our **local** branch.
+> Integrate upstream changes from `origin/main`, which adds them to our **local** branch.
 >
 ```bash
-$ git pull origin master
+$ git pull origin main
 >
 From ssh://github.com/YOUR_USERNAME/git-branchy
- * branch            master     -> FETCH_HEAD
+ * branch            main     -> FETCH_HEAD
 Already up-to-date.
 ```
 >
@@ -165,11 +165,11 @@ This branch is now available on your `origin` – simply open up GitHub (or GitL
 
 Once complete, it's a good idea to ask a friend or colleague to review your code.
 
-Once your code is bug-free and release-ready, merge it to the `master` branch.
+Once your code is bug-free and release-ready, merge it to the `main` branch.
 
 > [info]
 > Repeat this process each time you finish a part of the feature or need to take a break. Branches are considered works in progress – so commit and push to your branche(s) as much as possible; **even if it's not done**! If something goes terribly wrong, `origin/develop` serves as a history, backup, and record of your valuable work!
 
 # Next Step
 
-Ready for primetime? Proceed to the next page to learn how to merge your code into the `origin/master` branch on GitHub.
+Ready for primetime? Proceed to the next page to learn how to merge your code into the `origin/main` branch on GitHub.

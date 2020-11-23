@@ -7,7 +7,7 @@ slug: conflicts
 >
 > -Mosher’s Law of Software Engineering
 
-Let's practice what to do when your branch doesn't merge flawlessly with `master`.
+Let's practice what to do when your branch doesn't merge flawlessly with `main`.
 
 # Step 1 - Creating a Conflict Script
 
@@ -33,9 +33,9 @@ git commit -am 'initial'
 git checkout -b new_branch
 echo "echo \"Hello World\"" > my_code.sh
 git commit -am 'first commit on new_branch'
-git checkout master
+git checkout main
 echo "echo \"Hello World!\"" > my_code.sh
-git commit -am 'second commit on master'
+git commit -am 'second commit on main'
 git merge new_branch
 ```
 >
@@ -46,14 +46,14 @@ git merge new_branch
 ```bash
 $ ./make-conflict.sh
 >
-[master (root-commit) cc780d8] initial
+[main (root-commit) cc780d8] initial
  1 file changed, 1 insertion(+)
  create mode 100644 my_code.sh
 Switched to a new branch 'new_branch'
 [new_branch 3cb9aa2] first commit on new_branch
  1 file changed, 1 insertion(+), 1 deletion(-)
-Switched to branch 'master'
-[master 20700cb] second commit on master
+Switched to branch 'main'
+[main 20700cb] second commit on main
  1 file changed, 1 insertion(+), 1 deletion(-)
 Auto-merging my_code.sh
 CONFLICT (content): Merge conflict in my_code.sh
@@ -83,7 +83,7 @@ echo "Hello World"
 
 When you open the file in your text editor, you'll see the changes from the HEAD or base branch after the line `<<<<<<< HEAD`.
 
-Next, you'll see `=======`, which divides your changes from the changes in the other branch, followed by `>>>>>>> new_branch`, the branch we attempted to merge into `master`.
+Next, you'll see `=======`, which divides your changes from the changes in the other branch, followed by `>>>>>>> new_branch`, the branch we attempted to merge into `main`.
 
 # Step 3 - Merge Manually
 
@@ -109,12 +109,12 @@ Hello World
 ```bash
 $ git add .
 $ git commit -m "[fix] merge conflict"
-$ git push origin master
+$ git push origin main
 ```
 >
 
 # Acheivement Unlocked
 
-## Mega Merge Master
+## Mega Merge Main
 
 **Way to level up your Git skills --- you're ready to handle branches, merges, and conflicts in your day-to-day projects!**

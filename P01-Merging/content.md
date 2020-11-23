@@ -1,5 +1,5 @@
 ---
-title: "Merging to Master"
+title: "Merging to Main"
 slug: merging
 ---
 
@@ -7,32 +7,32 @@ slug: merging
 >
 > -Linus Torvalds
 
-Ready to merge to `origin/master`?
+Ready to merge to `origin/main`?
 
 Let's make it happen using the following three step process!
 
-# Step 1 - Move to Master Branch
+# Step 1 - Move to Main Branch
 
 > [action]
-> In your local repository directory, run the following command to switch to the `master` branch.
+> In your local repository directory, run the following command to switch to the `main` branch.
 >
 ```bash
-$ git checkout master
+$ git checkout main
 >
-Switched to branch 'master'
+Switched to branch 'main'
 ```
 >
 
 # Step 2 - Pull the Latest Changes
 
 > [action]
-> Pull the latest changes from `origin/master`, integrating the changesets into your local repository.
+> Pull the latest changes from `origin/main`, integrating the changesets into your local repository.
 >
 ```bash
-$ git pull origin master
+$ git pull origin main
 >
 From github.com:YOUR_USERNAME/git-branchy
-* branch            master     -> FETCH_HEAD
+* branch            main     -> FETCH_HEAD
 Already up to date.
 ```
 >
@@ -60,7 +60,7 @@ create mode 100644 test.js
 ```bash
 $ git add .
 $ git commit -m "[add] merge the develop branch"
-$ git push origin master
+$ git push origin main
 ```
 >
 
